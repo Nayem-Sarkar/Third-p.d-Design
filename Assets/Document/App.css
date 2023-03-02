@@ -59,7 +59,7 @@ li a {
   height: 50px;
   padding-right: 20px;
 }
-select{
+select {
   font-size: 15px;
   font-weight: 700;
 }
@@ -202,13 +202,13 @@ select{
   left: 900px;
 }
 .mac img {
-  width: 460px;
+  width: 500px;
   height: 100px;
 }
 .content-right-bg {
   position: absolute;
   background: #f1f1f3;
-  width: 460px;
+  width: 500px;
   height: 100%;
   left: 900px;
   top: 150px;
@@ -218,9 +218,7 @@ select{
 .right-fst-box {
   position: absolute;
   top: 180px;
-  left: 830px;
-  /* width: 280px; */
-  /* height: 500px; */
+  left: 840px;
   height: 72%;
   width: 21%;
   border-radius: 10px;
@@ -232,7 +230,7 @@ select{
 .right-snd-box {
   position: absolute;
   top: 180px;
-  left: 1130px;
+  left: 1150px;
   width: 220px;
   height: 270px;
   border-radius: 10px;
@@ -244,7 +242,7 @@ select{
 .right-trd-box {
   position: absolute;
   top: 460px;
-  left: 1130px;
+  left: 1150px;
   width: 220px;
   height: 220px;
   border-radius: 10px;
@@ -273,27 +271,128 @@ select{
   margin-bottom: 20px;
 }
 /* first box 2nd top starts here  */
-.fst-box-snd{
-display: flex;
-justify-content: space-around;
-height: 60px;
-margin-top: 10px;
+.fst-box-snd {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  margin-top: 10px;
 }
-.one{
+.one {
   font-size: 15px;
   font-weight: 900;
   margin-top: 10px;
 }
-.two{
+.two {
   font-size: 10px;
   color: gray;
   padding-left: 10px;
   margin-top: 5px;
 }
-.fst-box img{
+.fst-box img {
   margin-top: 10px;
 }
 /* first box 2nd top ends here  */
+/* pie chart box starts here  */
+.pie-box {
+  padding-left: 25px;
+}
+.pie-chart {
+  background: radial-gradient(
+      circle closest-side,
+      white 0,
+      white 85%,
+      transparent 85%,
+      transparent 100%,
+      white 0
+    ),
+    conic-gradient(
+      from 215deg,
+      #4e79a7 0,
+      #4e79a7 36.6%,
+      #f1f505 0,
+      #f1f505 75.6%,
+      #2ae562 0,
+      #2ae562 100%
+    );
+  position: relative;
+  width: 250px;
+  min-height: 230px;
+  margin: 0;
+}
+/* pie middle part start here  */
+.pie-mdl {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+}
+.pie-mdl-i {
+  font-size: 35px;
+  font-weight: 900;
+  padding-left: 20px;
+}
+.pie-mdl-ii {
+  font-size: 20px;
+}
+.pie-mdl-ii span {
+  color: #2ae562;
+}
+/* pie middle part start here  */
+/* pie chart box ends here  */
+/* pie bottom  */
+.btm-pie {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.btm-pie-left-i {
+  color: gray;
+}
+.btm-pie-left-ii {
+  font-weight: 800;
+}
+.btm-pie-right img {
+  margin-top: 15px;
+}
+/* pie bottom  */
+/* progress bar start here  */
+.progress-bar-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.prgsbr-i {
+  width: 100%;
+  background: gray;
+  border-radius: 10px;
+}
+.bari {
+  height: 15px;
+}
+.prgs {
+  width: 50%;
+  background: #401a99;
+  border-radius: 10px;
+}
+.prgs2 {
+  width: 30%;
+  background: #e2df10;
+  border-radius: 10px;
+}
+.prgs3 {
+  width: 20%;
+  background: #43d362;
+  border-radius: 10px;
+}
+.bari p {
+  padding-left: 250px;
+}
+.prgs-hdln-mn {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* progress bar ends here  */
 /* first box ends here  */
 /* secound box starts here  */
 .snd-box-top {
@@ -314,12 +413,80 @@ margin-top: 10px;
   margin-bottom: 20px;
 }
 /* upper ends  */
-.snd-box-icn img{
+.snd-box-icn img {
   height: 60px;
-padding-left: 40%;
-margin-top: 20px;
+  padding-left: 40%;
+  margin-top: 20px;
 }
-/* secound box starts here  */
+
+.name-child {
+  height: 20px;
+  width: 50px;
+  margin-left: 95px;
+  font-size: 13px;
+  background: gray;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.name-child1 {
+  height: 20px;
+  width: 100px;
+  margin-left: 85px;
+  font-size: 13px;
+  margin-top: 5px;
+  color: gray;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+/* middle child 2  */
+.name-child2 {
+  height: 40px;
+  width: 100px;
+  margin-left: 85px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+/* middle child 2  */
+/* snd box bottom part starts here  */
+.snd-box-bottom {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.snd-box-icn1 img {
+  height: 60px;
+}
+/* vector rounded icon starts here  */
+.vtr {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+}
+.vtr img {
+  height: 30px;
+}
+.vtr2 {
+  position: absolute;
+  top: 50px;
+  left: 160px;
+}
+.vtr2 img {
+  height: 40px;
+}
+.vtr3 {
+  position: absolute;
+  top: 125px;
+  left: 165px;
+}
+.vtr3 img {
+  height: 20px;
+}
+
+/* vector rounded icon ends here  */
+/* snd box bottom part ends here  */
+/* secound box ends here  */
 /* third box starts here  */
 .trd-box-top {
   display: flex;
@@ -339,7 +506,7 @@ margin-top: 20px;
   margin-bottom: 20px;
 }
 /* secound  */
-.trd-box-snd{
+.trd-box-snd {
   font-size: 15px;
   font-weight: 600;
   color: gray;
@@ -347,44 +514,42 @@ margin-top: 20px;
   padding-left: 10px;
   margin-top: 10px;
 }
-.trd-box-trd{
+.trd-box-trd {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
 /* secound left start */
-.trd-box-trd-lft{
+.trd-box-trd-lft {
   display: flex;
-
 }
-.lft-i{
+.lft-i {
   padding-left: 10px;
 }
-.lft-main{
+.lft-main {
   padding-left: 10px;
-  
 }
-.lft-ii{
+.lft-ii {
   font-weight: 800;
 }
-.lft-iii{
+.lft-iii {
   font-size: 13px;
   color: gray;
 }
 /* secound left end  */
-.trd-box-trd-right{
+.trd-box-trd-right {
   padding-right: 10px;
 }
-.trd-right-i{
+.trd-right-i {
   font-size: 15px;
   font-weight: 800;
   color: rgb(32, 207, 32);
 }
-.trd-right-ii{
-font-size: 12px;
-color: gray;
+.trd-right-ii {
+  font-size: 12px;
+  color: gray;
 }
-.trd-right-i-ii{
+.trd-right-i-ii {
   font-weight: 800;
 }
 /* third box ends here  */

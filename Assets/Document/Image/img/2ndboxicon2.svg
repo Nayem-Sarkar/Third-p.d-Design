@@ -1,0 +1,18 @@
+<svg width="168" height="168" viewBox="0 0 168 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_0_360)">
+<rect x="64" y="56" width="40" height="40" rx="20" fill="#5167F6" shape-rendering="crispEdges"/>
+<path d="M84 69.3333C80.32 69.3333 77.3333 72.32 77.3333 76C77.3333 79.68 80.32 82.6667 84 82.6667C87.68 82.6667 90.6666 79.68 90.6666 76C90.6666 72.32 87.68 69.3333 84 69.3333ZM84.94 80.06V80.4467C84.94 80.9333 84.54 81.3333 84.0533 81.3333H84.0466C83.56 81.3333 83.16 80.9333 83.16 80.4467V80.0467C82.2733 79.86 81.4866 79.3733 81.1533 78.5533C81 78.1867 81.2866 77.78 81.6866 77.78H81.8466C82.0933 77.78 82.2933 77.9467 82.3866 78.18C82.58 78.68 83.0866 79.0267 84.06 79.0267C85.3666 79.0267 85.66 78.3733 85.66 77.9667C85.66 77.4133 85.3666 76.8933 83.88 76.54C82.2266 76.14 81.0933 75.46 81.0933 74.0933C81.0933 72.9467 82.02 72.2 83.1666 71.9533V71.5533C83.1666 71.0667 83.5666 70.6667 84.0533 70.6667H84.06C84.5466 70.6667 84.9466 71.0667 84.9466 71.5533V71.9667C85.8666 72.1933 86.4466 72.7667 86.7 73.4733C86.8333 73.84 86.5533 74.2267 86.16 74.2267H85.9866C85.74 74.2267 85.54 74.0533 85.4733 73.8133C85.32 73.3067 84.9 72.98 84.06 72.98C83.06 72.98 82.46 73.4333 82.46 74.0733C82.46 74.6333 82.8933 75 84.24 75.3467C85.5866 75.6933 87.0266 76.2733 87.0266 77.9533C87.0133 79.1733 86.1 79.84 84.94 80.06Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_0_360" x="0" y="0" width="168" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="32"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.56 0 0 0 0 0.56 0 0 0 0 0.56 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_360"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_360" result="shape"/>
+</filter>
+</defs>
+</svg>
