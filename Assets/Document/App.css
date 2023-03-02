@@ -12,15 +12,16 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background: #e4dede;
+  background: #ffffff;
 }
 .container {
-  height: 80%;
-  width: 80%;
-  background: #ffffff;
   position: fixed;
+  /* height: 100%; */
+  height: 700px;
+  width: 1400px;
+  /* width: 100%; */
+  background: #ffffff;
   overflow: hidden;
-  border-radius: 5px;
 }
 /* header part starts here  */
 header {
@@ -31,6 +32,7 @@ header {
   width: 100%;
   margin-top: 30px;
 }
+/* header left parts starts here  */
 header ul {
   display: flex;
   list-style: none;
@@ -56,6 +58,10 @@ li a {
   padding-left: 80px;
   height: 50px;
   padding-right: 20px;
+}
+select{
+  font-size: 15px;
+  font-weight: 700;
 }
 /* header left parts ends here  */
 /* header right part starts here  */
@@ -101,7 +107,7 @@ li a {
   color: #0808ec;
 }
 .lft-cntnt-snd {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 900;
   margin-top: 15px;
 }
@@ -118,7 +124,7 @@ li a {
 /* left side fourth part start here */
 .lft-cntnt-frth {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .email {
@@ -163,10 +169,10 @@ li a {
 /* left content fifth part starts here  */
 .lft-cntnt-fifth {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: 40px;
-  margin-top: 100px;
+  margin-top: 170px;
 }
 .fifth-i {
   font-size: 14px;
@@ -193,18 +199,18 @@ li a {
 .mac {
   position: absolute;
 
-  left: 700px;
+  left: 900px;
 }
 .mac img {
-  width: 500px;
+  width: 460px;
   height: 100px;
 }
 .content-right-bg {
   position: absolute;
   background: #f1f1f3;
-  width: 100%;
+  width: 460px;
   height: 100%;
-  left: 700px;
+  left: 900px;
   top: 150px;
 }
 /* right bg ends here  */
@@ -212,9 +218,11 @@ li a {
 .right-fst-box {
   position: absolute;
   top: 180px;
-  left: 630px;
-  width: 220px;
-  height: 360px;
+  left: 830px;
+  /* width: 280px; */
+  /* height: 500px; */
+  height: 72%;
+  width: 21%;
   border-radius: 10px;
   background: #ffffff;
   box-shadow: -5px 6px 4px 1px rgba(232, 225, 225, 0.65);
@@ -224,9 +232,9 @@ li a {
 .right-snd-box {
   position: absolute;
   top: 180px;
-  left: 865px;
+  left: 1130px;
   width: 220px;
-  height: 180px;
+  height: 270px;
   border-radius: 10px;
   background: #ffffff;
   box-shadow: -5px 6px 4px 1px rgba(232, 225, 225, 0.65);
@@ -235,10 +243,10 @@ li a {
 }
 .right-trd-box {
   position: absolute;
-  top: 375px;
-  left: 865px;
+  top: 460px;
+  left: 1130px;
   width: 220px;
-  height: 180px;
+  height: 220px;
   border-radius: 10px;
   background: #ffffff;
   box-shadow: -5px 6px 4px 1px rgba(232, 225, 225, 0.65);
@@ -246,7 +254,7 @@ li a {
   -moz-box-shadow: -5px 6px 4px 1px rgba(232, 225, 225, 0.65);
 }
 /* right side  box design ends here  */
-/* first b0x stars here   */
+/* first b0x starts here   */
 .fst-box-top {
   display: flex;
   justify-content: space-between;
@@ -264,6 +272,28 @@ li a {
   height: 19px;
   margin-bottom: 20px;
 }
+/* first box 2nd top starts here  */
+.fst-box-snd{
+display: flex;
+justify-content: space-around;
+height: 60px;
+margin-top: 10px;
+}
+.one{
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.two{
+  font-size: 10px;
+  color: gray;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.fst-box img{
+  margin-top: 10px;
+}
+/* first box 2nd top ends here  */
 /* first box ends here  */
 /* secound box starts here  */
 .snd-box-top {
@@ -283,24 +313,79 @@ li a {
   height: 19px;
   margin-bottom: 20px;
 }
+/* upper ends  */
+.snd-box-icn img{
+  height: 60px;
+padding-left: 40%;
+margin-top: 20px;
+}
 /* secound box starts here  */
 /* third box starts here  */
 .trd-box-top {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(209, 198, 198);
-    height: 20px;
-    font-size: 15px;
-    font-weight: 600;
-    color: rgb(116, 108, 108);
-    margin-top: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-  }
-  .trd-box-top img {
-    width: 20px;
-    height: 19px;
-    margin-bottom: 20px;
-  }
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(209, 198, 198);
+  height: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(116, 108, 108);
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.trd-box-top img {
+  width: 20px;
+  height: 19px;
+  margin-bottom: 20px;
+}
+/* secound  */
+.trd-box-snd{
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.trd-box-trd{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+/* secound left start */
+.trd-box-trd-lft{
+  display: flex;
+
+}
+.lft-i{
+  padding-left: 10px;
+}
+.lft-main{
+  padding-left: 10px;
+  
+}
+.lft-ii{
+  font-weight: 800;
+}
+.lft-iii{
+  font-size: 13px;
+  color: gray;
+}
+/* secound left end  */
+.trd-box-trd-right{
+  padding-right: 10px;
+}
+.trd-right-i{
+  font-size: 15px;
+  font-weight: 800;
+  color: rgb(32, 207, 32);
+}
+.trd-right-ii{
+font-size: 12px;
+color: gray;
+}
+.trd-right-i-ii{
+  font-weight: 800;
+}
 /* third box ends here  */
 /* right content ends here  */
